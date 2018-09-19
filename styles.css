@@ -1,0 +1,102 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #000;
+    font-size:  75%;
+}
+
+header,
+main,
+footer {
+	background-color: #ddd;
+	font-size: 1.6em;
+}
+
+header {
+	padding: 1.875em;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+h1, h2, h3 {
+    text-align: center;
+	margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 1.875em 0;
+}
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+}
+
+section {
+	margin: 3em 0;
+}
+
+section:first-child {
+	margin-top: 1em;
+}
+
+section:last-child {
+	margin-bottom: 1em;
+}
+
+nav ul {
+	text-align: center;
+	padding: 10;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 1em;
+}
+
+p {
+    padding: 1.25em;
+    text-align: center;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+footer {
+	text-align: center;
+	padding: .5em;
+}
+
+footer p {
+	display: inline-block;
+}
+
+img {
+	width: 75%;
+    max-width: 100%;
+}
+    
+iframe { 
+    width: 75%;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
